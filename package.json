@@ -1,0 +1,32 @@
+{
+  "name": "sap003-md-links",
+  "version": "1.0.0",
+  "description": "CLI tool that extracts all Links from a Markdown File",
+  "main": "cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "commander": "^4.0.1",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandaono/SAP003-md-links.git"
+  },
+  "keywords": [
+    "markdown",
+    "cli",
+    "regex"
+  ],
+  "author": "Fernanda Ono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandaono/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/fernandaono/SAP003-md-links#readme"
+}
