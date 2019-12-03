@@ -10,9 +10,11 @@
     "commander": "^4.0.1",
     "request-promise": "^4.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest--coverage"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,10 @@
     "cli",
     "regex"
   ],
-  "author": "Fernanda Ono",
+  "author": "Fernanda Ono <ono.fernanda@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fernandaono/SAP003-md-links/issues"
   },
   "homepage": "https://github.com/fernandaono/SAP003-md-links#readme"
-}
+  }
