@@ -1,8 +1,9 @@
 const mdLinks = require ('./lib/index')
 
-console.log("vamos executar a promessa") 
-mdLinks('README.md').then ((value) => {
-    console.log(value)
-}).then ((value) => {
-    console.log("Promessa cumprida!")
+mdLinks('README.md').then ((el) => {
+    el.forEach(el => {
+        console.log(el.href, el.title)
+    });
+}).catch ((error) => {
+    console.log(error)
 })        
