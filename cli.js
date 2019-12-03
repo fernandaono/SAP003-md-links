@@ -1,4 +1,4 @@
-const index = require ('./lib/index')
+const mdLinks = require ('./lib/index')
 
 console.log("vamos executar a promessa") 
 mdLinks('README.md').then ((value) => {
